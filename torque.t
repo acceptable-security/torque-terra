@@ -310,7 +310,7 @@ function tsobject(lex)
         obj.args:insert(keyval)
 
     until lex:nextif("}")
-    print("WEW")
+    
     return obj
 end
 
@@ -498,7 +498,6 @@ function tsfunction(lex)
     lex:expectmatch(")", "(", begin)
 
     fnc.block = tsblock(lex);
-    tprint(fnc, 0)
     return fnc
 end
 
