@@ -1,0 +1,3 @@
+# terra-torque
+
+A simple implementation of TorqueScript using Terra's lexer and a custom Pratt parser.
